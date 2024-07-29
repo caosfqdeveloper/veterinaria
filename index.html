@@ -1,188 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>veterinaria 24hs</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <!--zona de script-->
-    <script
-      src="https://kit.fontawesome.com/9225c87594.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-
-  <body>
-    <!--***********************************************HOME******************************************************-->
-
+    <script src="https://kit.fontawesome.com/9225c87594.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <section id="Home">
-      <!-- Encabezado de la página -->
-      <header>
-        <!-- Barra de navegación -->
-        <nav>
-          <a
-            href="https://api.whatsapp.com/send?phone=1133089205"
-            target="_blank"
-            class="link-whatsapp"
-          >
-            <img src="/img/whatsapp.png" width="30" alt="whatsApp" />
-            <span>Veterinaria Pastor</span>
-          </a>
-          <!-- Enlace al inicio -->
-          <a href="./pet-shop.html" target="_blank" class="hamburguesa"
-            ><!-- Para evitar un punto ciego, no quisimos hacer un desplegable de la hamburguesa 
-                ahora pues lo reservamos para cuando usemos javascript -->
-            <img src="/img/Hamburguesa.png" width="20" alt="hamburguesa"
-          /></a>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <!-- Enlace a la página de inicio -->
-            <li><a href="#about">About</a></li>
-            <!-- Enlace a la página "Acerca de" -->
-            <li><a href="#servicios">Services</a></li>
-            <!-- Enlace a la página de servicios -->
-            <li><a href="./contact.html">Contact</a></li>
-            <!-- Enlace a la página de contacto -->
-            <li><a href="./pet-shop.html">pet-shop</a></li>
-            <!-- Enlace a la página de contacto -->
-            <li><a href="./usuario.html">usuario</a></li>
-          </ul>
-        </nav>
-      </header>
+        <header>
+            <nav>
+                <a href="https://api.whatsapp.com/send?phone=1133089205" target="_blank" class="link-whatsapp">
+                    <img src="/img/whatsapp.png" width="30" alt="whatsApp" />
+                    <span>Veterinaria Pastor</span>
+                </a>
+                <a href="#" class="menu-toggle"><i class="fa fa-bars"></i></a>
+                <ul class="nav-enlaces">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servicios">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./pet-shop.html">pet-shop</a></li>
+                    <li><a href="./usuario.html">usuario</a></li>
+                </ul>
+            </nav>
+        </header>
 
-      <!-- Contenido principal -->
-      <div class="ppal">
-        <!-- Título principal -->
-        <h1>Tu Veterinaria de Confianza</h1>
-        <!-- Subtítulo -->
-        <h2>Atención las 24 hs, los 365 días al año</h2>
-        <!-- Imagen principal -->
-        <img
-          src="./img/ppal.png"
-          alt="imagen principal de fondo"
-          class="imagen_principal"
-        />
-      </div>
+        <div class="ppal">
+            <h1>Tu Veterinaria de Confianza</h1>
+            <h2>Atención las 24 hs, los 365 días al año</h2>
+            <img src="./img/ppal.png" alt="imagen principal de fondo" class="imagen_principal" />
+        </div>
     </section>
 
-    <!-- Pie de página -->
     <footer>
-      <!-- Información de contacto o ubicación -->
-      <div class="texto">
-        Veterinaria Pastor - Avenida Siempre Viva 742 Springfield
-      </div>
+        <div class="texto">
+            Veterinaria Pastor - Avenida Siempre Viva 742 Springfield
+        </div>
     </footer>
 
-    <!--************************************************Nosotros*******************************************************-->
     <section id="about" class="nosotros">
-      <h2>Nuestro Equipo el corazón de la veterinaria...</h2>
-      <!-- Sección "Nosotros" -->
-
-      <!-- Contenedor principal -->
-      <div class="conteiner_nosotros">
-        <!-- Contenedor para el título h3 -->
-        <div class="contenedor h3_contenedor">
-          <h3 class="titulo_nosotros">ACERCA DE CLINICA VETERINARIA PASTOR</h3>
-          <!-- Título h3 -->
+        <h2>Nuestro Equipo el corazón de la veterinaria...</h2>
+        <div class="conteiner_nosotros">
+            <div class="contenedor h3_contenedor">
+                <h3 class="titulo_nosotros">ACERCA DE CLINICA VETERINARIA PASTOR</h3>
+            </div>
+            <div class="contenedor a_contenedor">
+                <p class="conteiner_cuadro">
+                    Nuestro equipo está formado por profesionales unidos por el amor hacia los animales en general y los animales de compañía en particular. Este equipo de veterinarios altamente cualificados y especializados trabaja bajo la coordinación de la Doctora Beatriz Aurora Pinzon Solano, fundadora de la clínica veterinaria en 2010. El compromiso del equipo profesional se basa en dar calidad de vida a tu mascota.
+                </p>
+            </div>
+            <ul class="conteiner_ul">
+                <li class="conteiner_ul_li"><a href="contact.html">contacto</a></li>
+                <li class="conteiner_ul_li"><a href="#">servicios</a></li>
+            </ul>
+            <div class="carrusel-container">
+                <img src="img/1.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/2.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/3.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/4.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/5.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/6.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/7.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/8.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/9.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/10.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/11.jpg" alt="" class="imagen_carrusel" />
+                <img src="img/12.jpg" alt="" class="imagen_carrusel" />
+            </div>
         </div>
-        <!-- Contenedor para el contenido de texto -->
-        <div class="contenedor a_contenedor">
-          <p class="conteiner_cuadro">
-            Nuestro equipo está formado por profesionales unidos por el amor
-            hacia los animales en general y los animales de compañía en
-            particular. Este equipo de veterinarios altamente cualificados y
-            especializados trabaja bajo la coordinación de la Doctora Beatriz
-            Aurora Pinzon Solano, fundadora de la clínica veterinaria en 2010.
-            El compromiso del equipo profesional se basa en dar calidad de vida
-            a tu mascota.
-          </p>
-        </div>
-
-        <ul class="conteiner_ul">
-          <li class="conteiner_ul_li"><a href="contact.html">contacto</a></li>
-          <li class="conteiner_ul_li"><a href="#">servicios</a></li>
-        </ul>
-
-        <!-- Carrusel -->
-        <div class="carrusel-container">
-          <img src="img/1.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/2.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/3.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/4.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/5.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/6.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/7.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/8.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/9.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/10.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/11.jpg" alt="" class="imagen_carrusel" />
-          <img src="img/12.jpg" alt="" class="imagen_carrusel" />
-        </div>
-      </div>
     </section>
-    <!-- Cerrar la sección "Nosotros" -->
 
-    <!--******************************************Servicios*******************************************************-->
     <section id="servicios">
-      <div class="servicios">
-        <div class="enum">
-          <h4>Nuestros Servicios</h4>
-          <!-- Enumeración de servicios -->
-          <div class="enum_servicios">
-            <div class="enum_uno">
-              <a href="#"><i class="fa-solid fa-user-nurse"> </i></a>
-              <ul>
-                <li>Consulta médica</li>
-                <li>Vacunas</li>
-                <li>Laboratorio veterinario</li>
-                <li>Pensión canina</li>
-                <li>Estetica canina</li>
-              </ul>
+        <div class="servicios">
+            <div class="enum">
+                <h4>Nuestros Servicios</h4>
+                <div class="enum_servicios">
+                    <div class="enum_uno">
+                        <a href="#"><i class="fa-solid fa-user-nurse"></i></a>
+                        <ul>
+                            <li>Consulta médica</li>
+                            <li>Vacunas</li>
+                            <li>Laboratorio veterinario</li>
+                            <li>Pensión canina</li>
+                            <li>Estetica canina</li>
+                        </ul>
+                    </div>
+                    <div class="enum_dos">
+                        <a href="#"><i class="fa-solid fa-hospital"></i></a>
+                        <ul>
+                            <li>Hospital veterinario</li>
+                            <li>Cirugia veterinaria</li>
+                            <li>Ultrasonido</li>
+                            <li>Limpieza dental veterinaria</li>
+                            <li>Fisoterapia veterinaria</li>
+                        </ul>
+                    </div>
+                    <div class="enum_tres">
+                        <a href=""><i class="fa-solid fa-stethoscope"></i></a>
+                        <ul>
+                            <li>Certificado de salud</li>
+                            <li>Radiología digital</li>
+                            <li>Medicina preventiva</li>
+                            <li>Gama nutricional</li>
+                            <li>Dermatología</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="casilla">
+                    <div class="casilla_uno">
+                        <h5>
+                            "En nuestra clínica, cada ladrido cuenta una historia de amor y cuidado incondicional hacia nuestros amigos de cuatro patas. ¡Únete a nuestra familia para brindarle a tu mascota la atención que se merece!"
+                        </h5>
+                        <img src="./img/madrid.jpeg" alt="" class="img_casilla" />
+                    </div>
+                </div>
             </div>
-            <div class="enum_dos">
-              <a href="#"><i class="fa-solid fa-hospital"></i></a>
-              <ul>
-                <li>Hospital veterinario</li>
-                <li>Cirugia veterinaria</li>
-                <li>Ultrasonido</li>
-                <li>Limpieza dental veterinaria</li>
-                <li>Fisoterapia veterinaria</li>
-              </ul>
-            </div>
-            <div class="enum_tres">
-              <a href=""><i class="fa-solid fa-stethoscope"></i></a>
-              <ul>
-                <li>Certificado de salud</li>
-                <li>Radiología digital</li>
-                <li>Medicina preventiva</li>
-                <li>Gama nutricional</li>
-                <li>Dermatología</li>
-              </ul>
-            </div>
-          </div>
-          <!-- Casillas alternadas -->
-          <div class="casilla">
-            <div class="casilla_uno">
-              <h5>
-                "En nuestra clínica, cada ladrido cuenta una historia de amor y
-                cuidado incondicional hacia nuestros amigos de cuatro patas.
-                ¡Únete a nuestra familia para brindarle a tu mascota la atención
-                que se merece!"
-              </h5>
-              <img src="./img/madrid.jpeg" alt="" class="img_casilla" />
-            </div>
-          </div>
         </div>
-      </div>
     </section>
-    <!-- Cerrar la sección de "Servicios" -->
 
-    <!-- Pie de página -->
     <footer>
-      <!-- Información de contacto o ubicación -->
-      <div class="texto">
-        Veterinaria Pastor - Avenida Siempre Viva 742 Springfield
-      </div>
+        <div class="texto">
+            Veterinaria Pastor - Avenida Siempre Viva 742 Springfield
+        </div>
     </footer>
-  </body>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-enlaces').classList.toggle('active');
+        });
+    </script>
+</body>
 </html>

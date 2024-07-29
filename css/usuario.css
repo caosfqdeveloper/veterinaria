@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #533c91;
+    background-color: #9070e9;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -69,15 +69,22 @@ nav ul li a:focus {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
 .efecto-glass {
     position: relative;
     width: 400px;
     height: 400px;
-    background-color: rgba(41, 24, 24, 0.8); /* Cambié el color y agregué transparencia */
+    background-color: rgba(41, 24, 24, 0.8);
     border-radius: 10px;
     backdrop-filter: blur(5px);
     border: 1px solid rgb(165, 19, 55);
-    margin: auto; /* Centra el elemento dentro de su contenedor padre */
+    margin: auto;
 }
 
 .formulario {
@@ -185,19 +192,10 @@ footer {
     position: fixed;
     width: 100%;
     background: #36506b;
-
-
-    /*min-height: 100px;*/
-    padding: 20px 50px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*flex-direction: column;*/
-
     bottom: 0;
     left: 0;
     text-align: center;
-    padding: 10px 0; /* Ajusta el relleno según sea necesario */
+    padding: 10px 0;
 }
 
 footer .social_icon,
@@ -239,7 +237,6 @@ footer .menu li a:hover {
 footer p {
     color: #fff;
     font-size: 1.1em;
-
     margin: 15px 0;
 }
 
@@ -248,29 +245,38 @@ footer p {
     nav ul {
         flex-direction: column;
         align-items: center;
-}
-  .btn_inicio{
-    grid-column: 12;
-    grid-row: 3;
-    border-radius: 50%;
-    margin-bottom: 2rem;
-    margin-right: 1rem;
-  }}
-  
-  
-  /* Estilos responsivos */
-  @media only screen and (max-width: 768px) {
-    .footer-wave {
-      height: 50px; /* Ajusta la altura de la onda para pantallas más pequeñas */
+        display: none;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
 
+    nav ul.active {
+        display: flex;
     }
 
     nav ul li {
         margin: 0.5rem 0;
     }
 
+    .menu-toggle {
+        display: block;
+    }
+
+    .btn_inicio {
+        grid-column: 12;
+        grid-row: 3;
+        border-radius: 50%;
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-wave {
+        height: 50px;
+    }
+
     footer {
         position: relative;
     }
 }
-

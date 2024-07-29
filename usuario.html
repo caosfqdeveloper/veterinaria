@@ -12,26 +12,24 @@
     />
     <link rel="stylesheet" type="text/css" href="./css/usuario.css" />
     <title>efecto-glass</title>
-<<<<<<< HEAD
-</head> 
-<body>
-
-    <nav>
-        <a href="./index.html">
-            <img src="img/11.jpg" alt="Logo de Veterinaria Pastor">
-            <span>Veterinaria Pastor</span>
-        </a> <!-- Enlace al inicio -->
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./About.html">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-=======
   </head>
   <body>
->>>>>>> c3cc0b38f9bcc470d469816763c3a72dbc39944f
+    <nav>
+      <a href="./index.html" class="logo">
+        <img src="img/11.jpg" alt="Logo de Veterinaria Pastor" />
+        <span>Veterinaria Pastor</span>
+      </a>
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-enlaces">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./About.html">Acerca de</a></li>
+        <li><a href="./Services.html">Servicios</a></li>
+        <li><a href="./contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+
     <div class="efecto-glass">
       <form action="" class="formulario">
         <h2>LOGIN</h2>
@@ -44,11 +42,15 @@
           <i class="fa-solid fa-lock"></i>
         </div>
         <div class="opciones">
-          <label for=""> <input type="checkbox" />recuerdame </label>
-          <a href="#">olvidaste el password</a>
+          <label for="">
+            <input type="checkbox" />recuérdame
+          </label>
+          <a href="#">¿Olvidaste el password?</a>
         </div>
-        <button>iniciar sesion</button>
-        <p>¿No tienes cuenta? <a href="#">registrate</a></p>
+        <button>Iniciar sesión</button>
+        <p>
+          ¿No tienes cuenta? <a href="#">Regístrate</a>
+        </p>
       </form>
       <div class="whatsapp">
         <a href="https://wa.me/1535912924" class="btn-wsp"
@@ -56,8 +58,8 @@
         ></a>
       </div>
     </div>
+
     <footer>
-      <!--iconos de redes sociales-->
       <ul class="social_icon">
         <li>
           <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -78,7 +80,7 @@
           />
         </a>
       </ul>
-      <!-- fin de la pagina-->
+
       <ul class="menu">
         <li><a href="#">Ayuda</a></li>
         <li><a href="#">Nosotros</a></li>
@@ -87,7 +89,13 @@
         <li><a href="#">Franquicia</a></li>
         <li><a href="#">Blog</a></li>
       </ul>
-      <p>@2024 Veterinaria | All Rights Reserved</p>
+      <p>@2024 Veterinaria | Todos los Derechos Reservados</p>
     </footer>
+
+    <script>
+      document.getElementById('menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-enlaces').classList.toggle('active');
+      });
+    </script>
   </body>
 </html>
